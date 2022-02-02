@@ -1,0 +1,81 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background-color: #1A374D;
+  color: #B1D0E0;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+p, li {
+  font-size: 1.6rem;
+}
+
+.container {
+  margin: 2rem;
+  background-color: #406882;
+  border-radius: .5rem;
+  padding: 4rem 2rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  background-color: #6998AB;
+  border: none;
+  width: 20rem;
+  padding: 1rem 1rem .5rem 1rem;
+  border-radius: .5rem;
+  margin: 1rem 0;
+  color: #B1D0E0;
+  font-size: 1.6rem;
+  outline: none;
+}
+
+input::placeholder {
+  color: #B1D0E0;
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
+}
+
+.li-container {
+  background-color: #1A374D;
+  width: 50%;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+li {
+  list-style: none;
+  background-color: #6998AB;
+  border-radius: .5rem;
+  margin-bottom: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.btn-delete {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #B1D0E0;
+}
