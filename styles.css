@@ -36,13 +36,20 @@ p, li {
   flex-direction: column;
 }
 
+form {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  margin: 2rem ;
+}
+
 input {
   background-color: #6998AB;
   border: none;
-  width: 20rem;
+  width: 80%;
   padding: 1rem 1rem .5rem 1rem;
-  border-radius: .5rem;
-  margin: 1rem 0;
+  border-radius: .5rem 0 0 .5rem;
+  /* margin: 1rem 0; */
   color: #B1D0E0;
   font-size: 1.6rem;
   outline: none;
@@ -71,6 +78,15 @@ li {
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+}
+
+.btn-add {
+  background: #B1D0E0;
+  border: none;
+  width: 10%;
+  font-size: 1.8rem;
+  color: #1A374D;
+  border-radius: 0 .5rem .5rem 0;
 }
 
 .btn-delete {
